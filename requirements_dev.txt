@@ -1,5 +1,7 @@
 numpy
 scipy
 pytest>=5.0.1
+sphinx
 sphinx-argparse
+sphinx-rtd-theme
 numpydoc
