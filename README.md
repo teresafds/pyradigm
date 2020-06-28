@@ -4,7 +4,7 @@
 [![travis](https://travis-ci.org/raamana/pyradigm.svg?branch=master)](https://travis-ci.org/raamana/pyradigm.svg?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/cffd80f290544e2e824011bfccf35ff8)](https://www.codacy.com/app/raamana/pyradigm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raamana/pyradigm&amp;utm_campaign=Badge_Grade)
 [![PyPI version](https://badge.fury.io/py/pyradigm.svg)](https://badge.fury.io/py/pyradigm)
-[![Python versions](https://img.shields.io/badge/python-3.5%2C%203.6%2C%203.7-blue.svg)]
+[![Python versions](https://img.shields.io/badge/python-3.5%2C%203.6-blue.svg)]
 [![codecov](https://codecov.io/gh/raamana/pyradigm/branch/master/graph/badge.svg)](https://codecov.io/gh/raamana/pyradigm)
 
 
