@@ -8,9 +8,10 @@
 [![codecov](https://codecov.io/gh/raamana/pyradigm/branch/master/graph/badge.svg)](https://codecov.io/gh/raamana/pyradigm)
 
 
-## CSVs suck. Upgrade your life with pyradigm
 
-The illustration below describes the full functionality of `pyradigm` in the latest version `0.6`, for which docs will be updated shortly (see below illustration for docs on previous versions):
+## Introduction
+
+The illustration below describes the full functionality of `pyradigm` in the latest version `0.6`, for which docs will be updated shortly (see below illustration for docs):
 
 ![flyer.png](docs/flyer.png)
 
@@ -18,20 +19,48 @@ The value of pyradigm is even more appreciated in the management of multi-modal 
 
 ![multimodalflyer.png](docs/flyer_multimodal.png)
 
-## DOCS FOR THE DEPRECATED VERSION
+## Installation
 
-Usage/demo notebook (no setup required) :
+Install pyradigm in a local environment executing:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raamana/pyradigm/master?filepath=docs%2Fusage.ipynb)
+`pip install pyradigm`
 
 
-Documentation : http://pyradigm.readthedocs.io
+## Getting Started
 
-Installation : http://pyradigm.readthedocs.io/docs/installation.html
+In this case
+
+First import the pyradigm class
+
+```python
+from pyradigm import ClassificationDataset as ClfDataset
+dataset = ClfDataset()
+dataset.description = 'Iris data'
+```
+
+Then, load the dataset using iris data in ARFF format.
+
+```python
+from scipy.io import arff
+data = arff.loadarff(‘example_datasets/iris.arff')
+for id, sample in enumerate(data[0]):
+	dataset.add_samplet(id,sample[1], sample[4])
+```
+
+
+## Usage and more examples
+
+Usage/demo notebook (no setup required): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raamana/pyradigm/master?filepath=docs%2Fusage.ipynb)
 
 Usage and examples: http://pyradigm.readthedocs.io/docs/usage.html
 
-Note: requires Python 3 or higher. Python 2 is not supported.
+Documentation: http://pyradigm.readthedocs.io
+
+
+## Contributing
+Contributions are welcome! Please refer to CONTRIBUTING.md for more details.
+
+## License
 
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/raamana)
