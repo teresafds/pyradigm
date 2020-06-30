@@ -20,7 +20,7 @@ from pyradigm import __version__ as pyradigm_version
 # -- Project information -----------------------------------------------------
 
 project = 'pyradigm'
-copyright = '2019, Pradeep Reddy Raamana'
+copyright = '2020, Pradeep Reddy Raamana'
 author = 'Pradeep Reddy Raamana'
 
 # The short X.Y version.
