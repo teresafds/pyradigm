@@ -9,7 +9,10 @@
 
 
 
-## Introduction
+## Upgrade your life with pyradigm
+
+Pyradigm is an open source data structure for biomedical data and features, designed to link multiple tables of mixed data types to improve dataset integrity and ease of use.
+
 
 The illustration below describes the full functionality of `pyradigm` in the latest version `0.6`, for which docs will be updated shortly (see below illustration for docs):
 
@@ -27,8 +30,6 @@ Install pyradigm in a local environment executing:
 
 
 ## Getting Started
-
-In this case
 
 First import the pyradigm class
 
@@ -50,17 +51,15 @@ for id, sample in enumerate(data[0]):
 
 ## Usage and more examples
 
-Usage/demo notebook (no setup required): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raamana/pyradigm/master?filepath=docs%2Fusage.ipynb)
+Usage notebook (no setup required): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raamana/pyradigm/master?filepath=docs%2Fusage.ipynb)
 
-Usage and examples: http://pyradigm.readthedocs.io/docs/usage.html
-
-Documentation: http://pyradigm.readthedocs.io
-
+Check more about Pyradigm on the [documentation](http://pyradigm.readthedocs.io),
+and for more details in [usage](http://pyradigm.readthedocs.io/docs/usage.html)
 
 ## Contributing
-Contributions are welcome! Please refer to CONTRIBUTING.md for more details.
+Contributions are welcome! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 ## License
-
+MIT
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/raamana)
