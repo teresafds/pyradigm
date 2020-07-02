@@ -54,7 +54,7 @@ for id, sample in enumerate(data[0]):
 Usage notebook (no setup required): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raamana/pyradigm/master?filepath=docs%2Fusage.ipynb)
 
 Check more about Pyradigm on the [documentation](http://pyradigm.readthedocs.io),
-and for more details in [usage](http://pyradigm.readthedocs.io/docs/usage.html)
+and for more details in [usage](http://pyradigm.readthedocs.io/docs/usage.html).
 
 ## Contributing
 Contributions are welcome! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
